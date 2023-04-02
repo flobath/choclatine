@@ -36,3 +36,4 @@ jobs:
         run: git remote add mirror ${{ env.MIRROR_URL }}
       - name: Push to mirror
         run: git push mirror HEAD:main
+        
